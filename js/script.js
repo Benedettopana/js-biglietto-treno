@@ -25,8 +25,7 @@ console.log(ticketPrice);
 document.getElementById('result').innerHTML +=
 `
 <p>
- 
-  ${ticketPrice}<br>
+  ${ticketPrice}&#8364;<br>
   Sul tuo biglietto ${message}
 </p>
 `;
