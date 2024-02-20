@@ -13,7 +13,7 @@ if(myAge < 18){
   message = 'è stato applicato lo sconto del 20%.';
 } 
   
-else if (myAge >= 65){
+else if (myAge > 65){
   sale = (ticketPrice * 40) / 100;
   message = 'è stato applicato lo sconto del 40%.';
 } 
