@@ -8,7 +8,7 @@ ticketPrice = ticketPrice.toFixed(2);
 console.log(myKm, myAge, ticketPrice);
 let message = 'non è stato applicato nessuno sconto.';
 let sale = 0;
-if(myAge <= 18){
+if(myAge < 18){
   sale = (ticketPrice * 20) / 100;
   message = 'è stato applicato lo sconto del 20%.';
 } 
