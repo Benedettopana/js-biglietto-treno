@@ -11,5 +11,5 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 
 1. Chiedere di inserire all'utente il numero dei Km che si vogliono percorrere e l'età del passeggero.
 1. Calcolare il prezzo del biglietto secondo la tariffa stabilita di 0.21 € al Km.
-1. Controllare se il passeggero ha diritto a degli sconti in base all'età.
-1. stampare a schermo il prezzo del biglietto.
+1. Controllare se il passeggero ha diritto a degli sconti in base all'età e applicarli in caso.
+1. Stampare a schermo il prezzo del biglietto.

@@ -6,22 +6,29 @@ const rate = 0.21;
 let ticketPrice = parseFloat(myKm * rate);
 ticketPrice = ticketPrice.toFixed(2);
 console.log(myKm, myAge, ticketPrice);
-let message = 'Non è stato applicato nessuno sconto.';
+let message = 'non è stato applicato nessuno sconto.';
 let sale = 0;
 if(myAge <= 18){
   sale = (ticketPrice * 20) / 100;
-  message = 'È stato applicato lo sconto del 20%.';
+  message = 'è stato applicato lo sconto del 20%.';
 } 
   
 else if (myAge >= 65){
   sale = (ticketPrice * 40) / 100;
-  message = 'È stato applicato lo sconto del 40%.';
+  message = 'è stato applicato lo sconto del 40%.';
 } 
 console.log(sale);
 ticketPrice -= sale;
 ticketPrice = ticketPrice.toFixed(2);
 console.log(ticketPrice);
 
-
+document.getElementById('result').innerHTML +=
+`
+<p>
+ 
+  ${ticketPrice}<br>
+  Sul tuo biglietto ${message}
+</p>
+`;
 
 
